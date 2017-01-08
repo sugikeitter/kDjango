@@ -4,6 +4,10 @@ $ virtualenv myenv
 # 仮想環境の起動
 $ source myenv/bin/activate
 
+
+#--- Django ドキュメント ---
+https://docs.djangoproject.com/ja/1.10/
+
 # Djangoのインストール
 $ pip install Django
 
