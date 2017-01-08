@@ -1,0 +1,33 @@
+# 仮想環境の作成
+$ virtualenv myenv
+
+# 仮想環境の起動
+$ source myenv/bin/activate
+
+# Djangoのインストール
+$ pip install Django
+
+# Djangoバージョンの確認
+$ python -m django --version
+
+# プロジェクトの作成
+$ django-admin startproject myproject
+
+# 開発用サーバー起動
+$ cd myproject
+$ python manage.py runserver
+
+# アプリケーション作成
+$ python manage.py startapp myapp
+
+
+
+# Viewの作成
+## リクエストに対する処理を定義
+$ vi myapp/views.py
+
+## リクエストURLと関数の対応付け
+$ vi myapp/urls.py
+
+## ルートのURLconfにアプリの設定を反映
+$ vi myproject/urls.py
